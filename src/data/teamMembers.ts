@@ -36,16 +36,16 @@ export const teamMembers: TeamMember[] = [
     id: "ysabel-chen",
     name: "Ysabel Chen", 
     role: "Co-President",
-    imageUrl: "/team/other.png",
-    bio: "Ysabel is a senior studying Computer Science with a focus on distributed systems. She has been interested in blockchain technology since 2018 and has worked on several DeFi projects.",
-    skills: ["Blockchains", "Venture Capital", "Smart Contracts", "Solidity", "Rust", "Go", "Distributed Systems"],
-    contact: "ysabel@ucsb.edu",
-    linkedin: "https://linkedin.com/in/example",
-    github: "https://github.com/example",
+    imageUrl: "/team/ysabel.jpeg", // Path to profile image
+    bio: "Ysabel is a junior studying Computer Science with a focus on algorithms, distributed systems, and the intersection of tech and law. She has been interested in blockchain technology since 2020 and has been with Blockchain@UCSB since freshman year.",
+    skills: ["Blockchains", "Rust", "Go", "Distributed Systems"],
+    contact: "ysabelchen@ucsb.edu",
+    linkedin: "https://www.linkedin.com/in/ysabel-chen/",
+    github: "https://github.com/ysabelchen",
     twitter: "",
     projects: [
-      { name: "DeFi Analytics Dashboard", description: "Tool for analyzing decentralized finance protocols" },
-      { name: "Smart Contract Auditing Workshop", description: "Training on security best practices" }
+      { name: "Blockchain Fundamental Lecture Series", description: "8-week lecture series covering technical concepts, economic applications, and legal ramifications of blockchain." },
+      { name: "Law and Order in a Pseudonymous and Decentralized Internet Ecosystem", description: "17-page legal paper on blockchain technology, proposing a federal regulatory framework that balances decentralization with security, and analyzing cryptographic safeguards against hacking and fraud." }
     ]
   },
   { 
