@@ -63,13 +63,13 @@ export default function Contact() {
       <div className="w-full max-w-2xl mx-auto py-8 px-4">
         <h1 className="text-4xl font-extrabold mb-6 text-center text-[var(--foreground)]">Contact Us</h1>
         <p className="text-lg text-center text-[var(--foreground)]/80 mb-8 max-w-xl mx-auto">
-          Have questions or want to get in touch? Fill out the form below and we'll get back to you as soon as possible.
+          Have questions or want to get in touch? Fill out the form below and we&apos;ll get back to you as soon as possible.
         </p>
 
         {submitted ? (
           <div className="bg-green-100/90 text-green-900 p-8 rounded-2xl text-center shadow-xl border border-green-200">
             <span className="text-2xl font-bold block mb-2">Message sent!</span>
-            <span>Thank you for reaching out. We'll respond to your inquiry shortly.</span>
+            <span>Thank you for reaching out. We&apos;ll respond to your inquiry shortly.</span>
           </div>
         ) : (
           <form
@@ -106,7 +106,7 @@ export default function Contact() {
                 name="subject"
                 required 
                 className="w-full p-3 rounded-lg bg-blue-50 border border-blue-200 focus:border-[var(--primary)] focus:ring-2 focus:ring-[var(--primary)]/30 transition text-gray-800" 
-                placeholder="What's this regarding?" 
+                placeholder="What&apos;s this regarding?" 
               />
             </div>
             

@@ -144,7 +144,7 @@ export default function Home() {
             <div className="md:w-1/2 flex flex-col">
               <div className="max-w-xl">
                 <p className="text-xl leading-relaxed mb-6 text-white">
-                  We collaborate with the Foundations of Financial Technology (FifTech) Lab at UCSB, led by Prof. Dahlia Malkhi. The lab researches distributed systems for blockchain infrastructure and explores decentralized finance's impact on economics, regulation, and society.
+                  We collaborate with the Foundations of Financial Technology (FifTech) Lab at UCSB, led by Prof. Dahlia Malkhi. The lab researches distributed systems for blockchain infrastructure and explores decentralized finance&apos;s impact on economics, regulation, and society.
                 </p>
                 <div className="mt-6">
                   <a 

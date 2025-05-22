@@ -99,8 +99,8 @@ export default function Events() {
         <div className="mt-16 text-center">
           <h2 className="text-2xl font-bold text-[#2a5d7c] mb-4">Want to organize or speak at an event?</h2>
           <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
-            We're always looking for speakers, workshop hosts, and collaborators. 
-            If you're interested in organizing or participating in an event, get in touch with us!
+            We&apos;re always looking for speakers, workshop hosts, and collaborators. 
+            If you&apos;re interested in organizing or participating in an event, get in touch with us!
           </p>
           <Link 
             href="/contact" 

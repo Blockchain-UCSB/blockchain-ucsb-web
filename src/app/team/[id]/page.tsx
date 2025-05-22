@@ -9,7 +9,11 @@ const getTeamMember = (id: string): TeamMember | undefined => {
   return teamMembers.find(member => member.id === id);
 };
 
-export default function TeamMemberPage({ params }: { params: { id: string } }) {
+export default function TeamMemberPage({ 
+  params 
+}: { 
+  params: { id: string } 
+}) {
   const member = getTeamMember(params.id);
   
   if (!member) {
