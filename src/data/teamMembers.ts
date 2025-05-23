@@ -38,7 +38,7 @@ export const teamMembers: TeamMember[] = [
     role: "Co-President",
     imageUrl: "/team/ysabel.jpeg", // Path to profile image
     bio: "Ysabel is a junior studying Computer Science with a focus on algorithms, distributed systems, and the intersection of tech and law. She has been interested in blockchain technology since 2020 and has been with Blockchain@UCSB since freshman year.",
-    skills: ["Blockchains", "Rust", "Go", "Distributed Systems"],
+    skills: ["Blockchain", "Distributed Systems", "AI/ML", "Game Development", "Rust", "Go", "C++", "C#", "Python", "Java"],
     contact: "ysabelchen@ucsb.edu",
     linkedin: "https://www.linkedin.com/in/ysabel-chen/",
     github: "https://github.com/ysabelchen",
