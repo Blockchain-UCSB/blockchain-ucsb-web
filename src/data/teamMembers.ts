@@ -48,54 +48,20 @@ export const teamMembers: TeamMember[] = [
       { name: "Law and Order in a Pseudonymous and Decentralized Internet Ecosystem", description: "17-page legal paper on blockchain technology, proposing a federal regulatory framework that balances decentralization with security, and analyzing cryptographic safeguards against hacking and fraud." }
     ]
   },
-  { 
-    id: "diana-malashenkova",
-    name: "Diana Malashenkova", 
-    role: "Marketing Lead",
-    imageUrl: "/team/other.png",
-    bio: "Diana is a senior studying Computer Science with a focus on distributed systems. She has been interested in blockchain technology since 2018 and has worked on several DeFi projects.",
-    skills: ["Blockchains", "Venture Capital", "Smart Contracts", "Solidity", "Rust", "Go", "Distributed Systems"],
-    contact: "diana@ucsb.edu",
-    linkedin: "https://linkedin.com/in/example",
-    github: "https://github.com/example",
-    twitter: "",
-    projects: [
-      { name: "Club Treasury System", description: "Blockchain-based treasury management system" },
-      { name: "Cryptography Fundamentals Workshop", description: "Introduction to cryptographic principles" }
-    ]
-  },
-  {
-    id: "saloni",
-    name: "Saloni Singhal",
-    role: "Treasurer",
-    imageUrl: "/team/saloni.jpeg", 
-    bio: "Saloni is a UCSB student double majoring in Economics & Accounting and Statistics & Data Science, currently serving as Treasurer for Blockchain@UCSB. She is passionate about blockchain systems, financial stewardship, and data-driven insights. Her recent work includes financial research on Solana-based memecoins and building predictive financial models using machine learning.",
-    skills: [
-      "Blockchain",
-      "Cryptocurrency",
-      "Treasury Management",
-      "Budgeting",
-      "Fundraising",
-      "Financial Reporting",
-      "Solana",
-      "Python",
-      "SQL",
-      "Data Analysis",
-      "Public Speaking"
-    ],
-    contact: "ssalonisinghal@gmail.com",
-    linkedin: "https://linkedin.com/in/ssaloni-singhal",
-    github: "",
-    twitter: "",
-    projects: [
-      {
-        name: "Solana Memecoin Research",
-        description: "Conducted market analysis and on-chain data research on Solana-based memecoins, exploring trends, liquidity behaviors, and the role of tokenomics in community-driven asset volatility."
-      },
-      {
-        name: "Stock Price Predictor",
-        description: "Built a Python-based machine learning model using linear regression to forecast stock prices. Used Jupyter Notebook for development, visualization, and performance analysis."
-      }
-    ]
-  }
+  // { 
+  //   id: "diana-malashenkova",
+  //   name: "Diana Malashenkova", 
+  //   role: "Marketing Lead",
+  //   imageUrl: "/team/other.png",
+  //   bio: "Diana is a senior studying Computer Science with a focus on distributed systems. She has been interested in blockchain technology since 2018 and has worked on several DeFi projects.",
+  //   skills: ["Blockchains", "Venture Capital", "Smart Contracts", "Solidity", "Rust", "Go", "Distributed Systems"],
+  //   contact: "diana@ucsb.edu",
+  //   linkedin: "https://linkedin.com/in/example",
+  //   github: "https://github.com/example",
+  //   twitter: "",
+  //   projects: [
+  //     { name: "Club Treasury System", description: "Blockchain-based treasury management system" },
+  //     { name: "Cryptography Fundamentals Workshop", description: "Introduction to cryptographic principles" }
+  //   ]
+  // }
 ]; 
