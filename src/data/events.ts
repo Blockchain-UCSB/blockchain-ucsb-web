@@ -34,5 +34,5 @@ export const events: Event[] = [
     location: "Phelps Hall",
     summary: "Our first iteration of the decentralized finance course! We covered the basics like stablecoins, exchanges, automated market makers, real-world assets, and more.",
     imageUrl: "/events/defi-2025.jpg"
-  }
+  },
 ]; 
