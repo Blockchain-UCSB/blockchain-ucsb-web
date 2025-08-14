@@ -25,7 +25,7 @@ export const events: Event[] = [
     date: "2025-03-15",
     location: "North Hall",
     summary: "Our yearly blockchain fundamentals course!",
-    imageUrl: "/events/bf-2025.jpeg"
+    imageUrl: "/events/bf2025.jpeg"
   },
   {
     id: "defi-2025",
@@ -33,6 +33,6 @@ export const events: Event[] = [
     date: "2025-01-15",
     location: "Phelps Hall",
     summary: "Our first iteration of the decentralized finance course! We covered the basics like stablecoins, exchanges, automated market makers, real-world assets, and more.",
-    imageUrl: "/events/defi-2025.jpg"
+    imageUrl: "/events/defi2025.jpg"
   },
 ]; 
