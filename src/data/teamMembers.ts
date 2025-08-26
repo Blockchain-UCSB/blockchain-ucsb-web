@@ -21,7 +21,7 @@ export const teamMembers: TeamMember[] = [
     name: "Ruslan Akhtariev", 
     role: "Co-President",
     imageUrl: "/team/ruslan.jpeg",
-    bio: "Ruslan is a sophomore studying Computer Science with a focus on blockchain technology, cryptography, and finance. His interests include DeFi, Zero-Knowledge cryptography, and permissionless systems.",
+    bio: "Ruslan is a junior studying Computer Science with a focus on blockchain technology, cryptography, and finance. His interests include DeFi, Zero-Knowledge cryptography, and permissionless systems.",
     skills: ["Blockchains", "Venture Capital", "Smart Contracts", "Solidity", "Rust", "Go", "Distributed Systems"],
     contact: "akhtariev@ucsb.edu",
     linkedin: "https://www.linkedin.com/in/pysel/",
@@ -37,7 +37,7 @@ export const teamMembers: TeamMember[] = [
     name: "Ysabel Chen", 
     role: "Co-President",
     imageUrl: "/team/ysabel.jpeg", // Path to profile image
-    bio: "Ysabel is a junior studying Computer Science with a focus on algorithms, distributed systems, and the intersection of tech and law. She has been interested in blockchain technology since 2020 and has been with Blockchain@UCSB since freshman year.",
+    bio: "Ysabel is a senior studying Computer Science with a focus on algorithms, distributed systems, and the intersection of tech and law. She has been interested in blockchain technology since 2020 and has been with Blockchain@UCSB since freshman year.",
     skills: ["Blockchain", "Distributed Systems", "AI/ML", "Game Development", "Rust", "Go", "C++", "C#", "Python", "Java"],
     contact: "ysabelchen@ucsb.edu",
     linkedin: "https://www.linkedin.com/in/ysabel-chen/",
