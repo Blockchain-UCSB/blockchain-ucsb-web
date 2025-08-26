@@ -28,7 +28,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/pysel",
     twitter: "https://twitter.com/pysellll",
     projects: [
-      { name: "Uniliquids", description: "Eigen Games 2025 Hackathon project that builds synthetic LP assets on Uniswap V4" },
+      { name: "OneYield", description: "Built an automated cross-chain yield vault for EVM chains during the research scholar position at Blockchain Capital." },
       { name: "Notional Labs", description: "Software engineering in the Cosmos Ecosystem. Work includes Tendermint, Osmosis Labs, Cosmos SDK, and more." }
     ]
   },
