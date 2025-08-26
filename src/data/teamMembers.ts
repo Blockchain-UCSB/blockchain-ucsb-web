@@ -48,6 +48,22 @@ export const teamMembers: TeamMember[] = [
       { name: "Law and Order in a Pseudonymous and Decentralized Internet Ecosystem", description: "17-page legal paper on blockchain technology, proposing a federal regulatory framework that balances decentralization with security, and analyzing cryptographic safeguards against hacking and fraud." }
     ]
   },
+  { 
+    id: "jonas-chen",
+    name: "Jonas Chen", 
+    role: "Officer",
+    imageUrl: "/team/jonas.jpeg",
+    bio: "Jonas is a fourth year computer science student currently interested in blockchains, zero-knowledge proofs, formal verification, and macroeconomics",
+    skills: ["EVM"],
+    contact: "jonas_chen@ucsb.edu",
+    linkedin: "https://www.linkedin.com/in/jonas-chen-/",
+    github: "",
+    twitter: "https://x.com/soumetsuu",
+    projects: [
+      { name: "DeadDrop", description: "Protocol for submitting verified smart contract bugs in public without compromising privacy, leveraging the recently introduced cryptographic technique oblivious message retrieval (OMR). With Fan Zhang, Mariarosaria Barbaraci, Yavor Litchev, Stephanie Ma, Harjasleen Malvai, Marwa Mouallem, Silei Ren, and Cynthia Wang." },
+      { name: "Wishing Simulator", description: "On chain gacha leveraging Chainlink's verifiable random functions (VRF) and ERC 1155." }
+    ]
+  }
   // { 
   //   id: "diana-malashenkova",
   //   name: "Diana Malashenkova", 
