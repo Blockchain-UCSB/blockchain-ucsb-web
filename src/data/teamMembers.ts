@@ -49,6 +49,22 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   { 
+    id: "diana-malashenkova",
+    name: "Diana Malashenkova", 
+    role: "Marketing & PR Manager",
+    imageUrl: "/team/diana.jpg",
+    bio: "Diana is a junior double majoring in Economics and BFA. She has been interested in blockchain technology since 2024 and has worked on a number of initiatives.",
+    skills: ["Marketing", "PR", "Event Planning", "Research"],
+    contact: "dmalashenkova@ucsb.edu",
+    linkedin: "https://www.linkedin.com/in/dianamal/",
+    github: "",
+    twitter: "",
+    projects: [
+      { name: "DeFi Seminars", description: "Co-organized and managed DeFi seminars in UCSB, with guest speakers from industry and academia." },
+      { name: "FBC'25 Summit", description: "Co-organized and led marketing and PR efforts for the FBC'25 Summit, a UCSB conference on blockchain technology and finance." }
+    ]
+  },
+  { 
     id: "jonas-chen",
     name: "Jonas Chen", 
     role: "Officer",
