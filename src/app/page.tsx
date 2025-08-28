@@ -160,8 +160,8 @@ export default function Home() {
             </div>
             
             {/* Image on the right */}
-            <div className="md:w-1/2 md:flex md:items-center md:h-full">
-              <div className="rounded-lg overflow-hidden shadow-xl h-auto w-full mt-[-74px]">
+            <div className="md:w-1/2 md:flex md:items-center md:h-full order-first md:order-last">
+              <div className="rounded-lg overflow-hidden shadow-xl h-auto w-full md:mt-[-74px] mt-8">
                 <Image 
                   src="/fftech-lab.png" 
                   alt="FifTech Lab at UCSB" 
