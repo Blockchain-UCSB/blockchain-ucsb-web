@@ -17,7 +17,7 @@ export const events: Event[] = [
     location: "UCSB Campus",
     summary: "Our second iteration of the yearly blockchain summit. FBC 2025 formalized the format and paved the way for the future summits to come.",
     imageUrl: "/events/fbc25.jpeg",
-    link: "https://ucsbblockchainsummit2025.com/"
+    link: "https://www.youtube.com/playlist?list=PL1d8wnvvDJEm_SUIcTKHkOlNDTHT27DEG"
   },
   {
     id: "bf-2025",
