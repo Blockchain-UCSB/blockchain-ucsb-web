@@ -20,6 +20,7 @@ export default function Apply() {
     const email = formData.get('email') as string;
     const year = formData.get('year') as string;
     const major = formData.get('major') as string;
+    const position = formData.get('position') as string;
     const why = formData.get('why') as string;
     const excitementAboutBlockchain = formData.get('excitementAboutBlockchain') as string;
 
@@ -29,7 +30,7 @@ export default function Apply() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ fullName, email, year, major, why, excitementAboutBlockchain }),
+        body: JSON.stringify({ fullName, email, year, major, position, why, excitementAboutBlockchain }),
       });
 
       if (!response.ok) {
@@ -138,6 +139,17 @@ export default function Apply() {
                 required 
                 className="w-full p-3 rounded-lg bg-blue-50 border border-blue-200 focus:border-[var(--primary)] focus:ring-2 focus:ring-[var(--primary)]/30 transition text-gray-800" 
                 placeholder="Computer Science" 
+              />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="position" className="block text-gray-700 font-medium mb-1">Position you wish to apply for</label>
+              <input 
+                id="position"
+                name="position"
+                required 
+                className="w-full p-3 rounded-lg bg-blue-50 border border-blue-200 focus:border-[var(--primary)] focus:ring-2 focus:ring-[var(--primary)]/30 transition text-gray-800" 
+                placeholder="Treasurer, Events Assistant, etc." 
               />
             </div>
             

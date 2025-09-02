@@ -52,7 +52,7 @@ export const teamMembers: TeamMember[] = [
     id: "diana-malashenkova",
     name: "Diana Malashenkova", 
     role: "Marketing & PR Manager",
-    imageUrl: "/team/diana.jpg",
+    imageUrl: "/team/diana_malashenkova.jpg",
     bio: "Diana is a junior double majoring in Economics and BFA. She has been interested in blockchain technology since 2024 and has worked on a number of initiatives.",
     skills: ["Marketing", "PR", "Event Planning", "Research"],
     contact: "dmalashenkova@ucsb.edu",

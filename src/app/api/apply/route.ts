@@ -3,10 +3,10 @@ import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
   try {
-    const { fullName, email, year, major, why, excitementAboutBlockchain } = await request.json();
+    const { fullName, email, year, major, position, why, excitementAboutBlockchain } = await request.json();
 
     // Validate input
-    if (!fullName || !email || !year || !major || !why || !excitementAboutBlockchain) {
+    if (!fullName || !email || !year || !major || !position || !why || !excitementAboutBlockchain) {
       return NextResponse.json(
         { error: 'Missing required fields' },
         { status: 400 }
@@ -32,6 +32,7 @@ Name: ${fullName}
 Email: ${email}
 Year: ${year}
 Major: ${major}
+Position: ${position}
 
 Why they want to join:
 ${why}
@@ -45,6 +46,7 @@ ${excitementAboutBlockchain}
 <p><strong>Email:</strong> ${email}</p>
 <p><strong>Year:</strong> ${year}</p>
 <p><strong>Major:</strong> ${major}</p>
+<p><strong>Position:</strong> ${position}</p>
 <p><strong>Why they want to join:</strong></p>
 <p>${why.replace(/\n/g, '<br>')}</p>
 <p><strong>What excites them about blockchain technology:</strong></p>
